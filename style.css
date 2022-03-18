@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2? family= Roboto & display=swap");
 
 body {
-  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  background-image: linear-gradient(340deg, #b2eaff 0, #5389f2 50%, #003265 100%);
+  );
   font-family: "Roboto", sans-serif;
 }
 
@@ -40,6 +41,21 @@ body {
   font-weight: 400;
   font-size: 24px;
 }
+.titulo h4 a {
+  color: #1c1c1c;
+  text-decoration: none;
+  padding: 20px;
+}
+.imgInsta {
+  max-height: 22px;
+}
+.imgLinkedin {
+  max-height: 22px;
+}
+.imgGithub {
+  max-height: 22px;
+}
+
 .tema button {
   align-self: flex-end;
   font-weight: 400;
@@ -82,7 +98,9 @@ body {
   background: #333439;
   color: #f6f6f6;
 }
-
+.dark h4 a {
+  color: #f6f6f6;
+}
 .dark .projetos {
   color: #1c1c1c;
 }
